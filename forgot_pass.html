@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="forgot_pass.css">
+    <title>
+      forgot password
+    </title>
+  </head>
+  <body>
+    <div class="all_in_div">
+      <button class="lock_logo_border">
+        <img class="lock_img" src="logos/lock.svg">
+      </button>
+      <div class="help_in_login">
+        Trouble in logging in?
+      </div>
+      <div class="help_in_login_para">
+        Enter you email address, phone number or usename, and we will tell you password of your account
+      </div>
+      <input class="forgot_pass_input" placeholder="Email address, phone number or username">
+      <button class="show_password_button" onclick="showPasswordFun();">Show password</button>
+      <p class="cant_get_link">Can't reset your password?</p>
+
+      <div class="left_right_or"></div>
+      <p class="or_class">OR</p>
+      <div class="left_right_or"></div>
+
+      <div class="create_new_acc_class" onclick="
+      createId();
+      ">
+        Create new account
+      </div>
+      <button class="back_to_login" onclick="
+      backToLogin();
+      ">
+        Back to log in
+      </button>
+    </div>
+
+
+    <script src="login_page.js"></script>
+  </body>
+</html>

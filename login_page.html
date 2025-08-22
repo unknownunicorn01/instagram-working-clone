@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="login_page.css">
+    <title>
+      Login page
+    </title>
+  </head>
+  <body>
+    <div class="all_in_block">
+      <div class="login_div">
+        <input class="input_id_class" placeholder="Phone number, username or email address">
+        <input class="input_password_class" type="password" placeholder="Password" 
+        onkeydown="
+        if(event.key==='Enter'){
+          login();
+        }">
+      </div>
+      <button class="login_button_class"
+      onclick="
+      login()
+      ">
+      Log in
+      </button>
+      <div class="forgot_password_div">
+        <p class="forgot_password_button_para" onclick="
+          forgotPassFun();
+          ">
+          Forgot password?
+        </p>
+        <p class="create_account_para">
+          Don't have an account? <span class="create_account_span_class" onclick="
+            createId()
+            ">create one </span>
+        </p>
+
+      </div>
+    </div>
+
+    <script src="login_page.js"></script>
+  </body>
+</html>
