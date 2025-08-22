@@ -1,0 +1,549 @@
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.left-block{
+    top: 8px;
+    left: 0;
+    position: fixed;
+    width: 18%;
+    height: 100%;
+
+    box-shadow: 1px 0px  rgb(163, 161, 161);
+}
+.instagram{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    margin-left: 17px;
+    font-weight: 500;
+    font-family: arial;
+}
+
+.home-div{
+    display: flex;
+    margin-bottom: 3px;
+
+}
+.home-but{
+    height: 45px;
+    width: 230px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0;
+    justify-content: center;
+
+
+}
+.home-img{
+    height: 30px;
+    width: 30px;
+    margin-left: -110px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+.home{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.home-but:hover{
+    background-color: rgb(192, 187, 187);
+    font-weight: bold;
+}
+.home-div:active{
+    opacity: 0.7;
+}
+
+.my-pp{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin-left: -110px;
+    margin-top: 4px;
+}
+.reels-logo{
+    height: 30px;
+    width: 30px;
+    margin-left: -120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.message-logo{
+    height: 30px;
+    width: 30px;
+    margin-left: -90px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.no-message-but{
+    position:absolute;
+    background-color: red;
+    height:13px;
+    width: 13px;
+    border-radius: 50%;
+    z-index: 3;
+    padding: 0.5px 3px 7px 5px;
+    color: white;
+    left: 25px;
+    top: 270px;
+}
+.notification-logo{
+    height: 30px;
+    width: 30px;
+    margin-left: -75px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.dashbord-logo{
+    height: 30px;
+    width: 30px;
+    margin-left: -80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-but{
+    margin-top: 30px;
+    height: 45px;
+    width: 230px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0;
+    justify-content: center;
+}
+.menu-but:hover{
+    background-color: rgb(192, 187, 187);
+    font-weight: bold;
+}
+.menu-logo{
+    height: 90px;
+    width: 30px;
+    margin-left: -120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.middle-block{
+    margin-top:8px;
+    margin-left: 18.2%;
+
+    height: 1000px;
+    max-width: 82.1%;
+    top: 0px;
+}
+.story-block{
+    height: 80px;
+    width: 66%;
+
+    margin-left: 6px;
+    z-index: 3;
+    display: block;
+    cursor: pointer;
+}
+.story-div{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: white;
+
+}
+.pp-block{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.story-but{
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px 2px 2px 2px;
+    border-image: linear-gradient(to red blue);
+    border-width: 3px;
+}
+.user-pp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.username-div{
+    margin-top: 2px;
+    height:10px;
+
+}
+.username{
+    color: rgb(48, 48, 48);
+    font-size: 13px;
+}
+
+.content-block{
+    width: 500px;
+    height: 1000px;
+    margin-top: 25px;
+    margin-right: 45%;
+    margin-left: 9%;
+
+}
+.post-block{
+    display: block;
+    position: relative;
+}
+.top-post-div{
+    display: block;
+    height: 50px;
+}
+.creater-pp-div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.creater-pp{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px 7px 10px 5px;
+}
+.creater-name-div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.creater-name{
+    font-size: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.blue-tick{
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left:2px;
+}
+.days{
+    color: rgb(96 96 96);
+}
+.follow-div{
+    display: inline-block;
+}
+.follow-but{
+    border: none;
+    background-color: white;
+    color: rgb(48, 48, 247);
+    font-weight: bold;
+
+}
+.more-options-div{
+    position: absolute;
+    z-index: 3;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    margin-left: 34%;
+}
+.three-dots{
+    height: 35px;
+    width: 35ps;
+    background-color: white;
+}
+.thumnail-div{
+    display: block;
+}
+.thumnail{
+    width:500px;
+    border-radius: 5px;
+}
+.likes-block{
+    margin-top: 10px;
+    display: block;
+}
+.likes-div{
+    display: inline-block;
+    margin-left: 2px;
+}
+.like-but{
+    background-color:white;
+    border: none;
+    height: 35px;
+    width: 40px;
+}
+.like-img{
+    height:30px;
+    width: 30px;
+    margin-left: -3px;
+
+}
+.comment-div{
+    display: inline-block;
+    margin-left: 2px;
+}
+.comment-but{
+    background-color: white;
+    border: none;
+    height: 35px;
+    width: 40px;
+}
+.comment-img{
+    height:30px;
+    width: 30px;
+    margin-left: -3px;
+}
+.share-div{
+    display: inline-block;
+    margin-left: 2px;
+}
+.share-but{
+    background-color: white;
+    border: none;
+    height: 35px;
+    width: 40px;
+}
+.share-img{
+    height:30px;
+    width: 30px;
+    margin-left: -3px;
+}
+.save-div{
+    display: inline-block;
+    margin-left: 319px;
+}
+.save-but{
+    background-color: white;
+    border: none;
+    height: 35px;
+    width: 40px;
+}
+.save-img{
+    height:30px;
+    width: 30px;
+    margin-left: -3px;
+}
+.save-but:hover,.like-but:hover,.comment-but:hover,.share-but:hover{
+    opacity: 0.6;
+}
+.like-img:active{
+    background-color: red;
+}
+.save-img:active{
+    background-color: black;
+}
+.like-but:active,.save-but:active{
+    background-color: white;
+}
+.no-like-block{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: block;
+    height: 20px;
+    width: 300px;
+}
+.no-like{
+    font-size: 14px;
+}
+.discription-div{
+    display: block;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+.discription{
+    font-size: 15px;
+}
+.discription-more{
+    font-size: 15px;
+    color: rgb(78, 76, 76);
+}
+.discription-more:hover{
+    cursor: pointer;
+}
+.view-comments-div{
+    display: inline-block;
+}
+.view-comments{
+    color: rgb(96 96 96);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.add-comment{
+    color: rgb(96 96 96);
+    font-size: 15px;
+    margin-left:5px;
+    margin-bottom: 10px;
+}
+
+.right-block{
+    position: fixed;
+    right: 0;
+    top: 8px;
+
+    width: 27.1%;
+    height: 800px;
+    margin-left: 0px;
+    z-index: 2;
+}
+.switch-acc-div{
+    display: block;
+    width: 100%;
+    height:75px;
+
+    position: relative;
+}
+.switch-option-div{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+
+}
+.switch-option-but{
+    background-color: white;
+    color: rgb(52, 52, 254);
+    border: none;
+    font-weight:600;
+    font-size: 15px;
+}
+.switch-option-but:hover{
+    color: gray;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.switch-option-but:active{
+    color:rgb(198, 195, 195);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.acc-pp-div{
+    display: inline-block;
+
+}
+.acc-pp{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
+}
+.acc-pp:hover{
+    cursor: pointer;
+}
+.acc-name-block{
+    display: inline-block;
+
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.acc-username-div{
+    display: block;
+}
+.acc-username:hover{
+    cursor: pointer;
+}
+.acc-username{
+    font-size: 15px;
+    font-weight: bold;
+}
+.my-acc-username:hover{
+    cursor: pointer;
+}
+.my-acc-username{
+    font-size: 15px;
+    font-weight: bold;
+}
+.acc-name-div{
+    display: block;
+}
+.acc-name{
+    font-size: 15px;
+}
+.suggestions-block{
+    display: block;
+    width: 100%;
+    height:380px;
+
+}
+.suggested-div{
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;    
+}
+.suggested-you-div{
+    display: inline-block;
+}
+.suggested-you{
+    color: gray;
+    font-size: 16px;
+}
+.see-all-div{
+    display: inline-block;
+    margin-left: 48%;
+}
+.see-all{
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+    font-weight: bold;
+}
+.suggested-acc-div{
+    display: block;
+}
+.suggested-acc-pp-div{
+    display: inline-block;
+}
+.suggested-acc-pp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.suggested-acc-name-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.suggested-acc-name{
+    display: block;
+    font-weight: bold;
+
+}
+.suggested-acc-follow-div{
+    display: block;
+    font-size: 15px;
+    color: gray;
+}
+
+.suggested-acc-follow-but-div{
+    display: inline-block;
+    vertical-align: top;
+    margin-top:20px;
+    margin-left: 20px;
+
+}
+.suggested-acc-follow-but{
+    border: none;
+    background-color: white;
+    color: rgb(4, 94, 249);
+    font-size: 15px;
+    font-weight: bold;
+}
+.suggested-acc-follow-but:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.suggested-acc-follow-but:active{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.about-block{
+    display: block;
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+
+}

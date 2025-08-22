@@ -1,0 +1,154 @@
+*{
+  font-family: Roboto;
+}
+
+.all_in_block{
+  height:570px;
+  width:400px;
+  background-color: rgb(237, 235, 235);
+  margin-left: 35%;
+  margin-top: 20px;
+  border-width: 10px black;
+}
+.top_intro_block{
+  margin-left: 50px;
+  margin-right:40px;
+  padding-top:1px;
+  display: block;
+  /* background-color: yellow; */
+}
+
+.app_name_para{
+  font-size: 35px;
+  display: block;
+  margin-left: 60px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.intro_para{
+  background-color: white;
+  text-align: center;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(50, 49, 49);
+}
+.signup_gmail_button{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 19px 7px 19px;
+  margin-left: 70px;
+  font-weight: 600;
+}
+.signup_gmail_button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.or_class_div{
+  display: block;
+}
+.left_right_or_class{
+  margin-top: 30px;
+  margin-left: 10px;
+  height:2px;
+  width: 130px;
+  background-color: black;
+  display: inline-block;
+}
+.or_para{
+  display: inline;
+  margin-right: -7px;
+  margin-left: 5px;
+}
+
+.information_section_block{
+  height: 200px;
+  width: 370px;
+  margin-left: 10px;
+  margin-right:40px;
+  padding-top:10px;
+  display: block;
+  padding-right: 10px;
+  /* background-color: pink; */
+}
+.number_input_class{
+  margin-bottom: 5px;
+  margin-left: 20px;
+  width: 330px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: solid gray;
+  border-width: 1px;
+}
+.password_input_class{
+  margin-bottom: 5px;
+  margin-left: 20px;
+  width: 330px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: solid gray;
+  border-width: 1px;
+}
+.name_input_class{
+  margin-bottom: 5px;
+  margin-left: 20px;
+  width: 330px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: solid gray;
+  border-width: 1px;
+}
+.username_input_class{
+  margin-bottom: 5px;
+  margin-left: 20px;
+  width: 330px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: solid gray;
+  border-width: 1px;
+}
+
+.terms_and_condition_block{
+  height: 100px;
+  width: 350px;
+  /* background-color: orange; */
+  margin-left: 25px;
+}
+.learn_more_div{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.learn_more_span_class{
+  color: blue;
+}
+.learn_more_span_class:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.learn_more_span_class:active{
+  cursor: pointer;
+  color: red;
+}
+
+
+.sign_up_button{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 100px 10px 100px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.sign_up_button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}

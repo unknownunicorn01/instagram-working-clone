@@ -1,0 +1,97 @@
+*{
+  font-family: Roboto;
+}
+
+.all_in_block{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(237, 235, 235);
+  margin-top: 110px;
+  margin-left: 35%;
+  /* margin-left: 450px; */
+  padding-top: 20px;
+}
+.login_div{
+  height: 150px;
+  width: 320px;
+  /* background-color: pink; */
+  /* display: block; */
+  color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.input_id_class{
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 14px;
+  width: 290px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  background-color: rgb(247, 247, 247);
+  padding-left: 10px;
+}
+.input_password_class{
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 14px;
+  width: 290px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  background-color: rgb(247, 247, 247);
+  padding-left: 10px;
+}
+.login_button_class{
+  background-color: blue;
+  border: none;
+  color: white;
+  font-weight: 800;
+  width: 250px;
+  height: 37px;
+  margin-left: 70px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.forgot_password_div{
+  height: 65px;
+  width: 300px;
+  /* display: block; */
+  /* background-color: yellow; */
+  margin-left: 55px;
+  margin-top: 30px;
+}
+.forgot_password_button_para{
+  color: blue;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 77px;
+}
+.create_account_para{
+  font-size: 17px;
+  margin-left: 10px;
+}
+.create_account_span_class{
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.forgot_password_button_para:hover, .login_button_class:hover, .create_account_span_class:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.forgot_password_button_para:active, .create_account_span_class:active{
+  opacity: 0.4;
+  color: red;
+  text-decoration: underline;
+}
+.login_button_class:active{
+  opacity: 0.4;
+
+}
