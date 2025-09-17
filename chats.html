@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>chats</title>
+  <link rel="stylesheet" href="chats.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left_block">
+      <div class="insta_logo_div">
+        <img class="insta_logo" src="logo/instagram.png">
+      </div>
+      <div class="home-log_div" onclick="toHome()">
+        <img class="home_logo" src="logo/home.svg">
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/search.svg">
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/explore.svg">
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/reel.svg">
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/message.svg">
+        <p class="no_message">5</p>
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/notifications.svg">
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/create.svg">
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/dashboard.svg">
+      </div>
+      <div class="home-log_div">
+        <img class="profile_img" src="images/savagebaba05.jpg">
+      </div>
+      <div class="home-log_div">
+        <img class="home_logo" src="logo/menu.svg">
+      </div>
+
+    </div>
+    <div class="middle_block">
+      <div class="upper_message_div">
+        <div class="acc_name_div">
+          <p class="acc_name">
+            savagebaba05
+          </p>
+          <img class="down_arrow" src="logo/down_arrow.svg">
+          <img class="pencil_sq" src="logo/pencil.svg">
+        </div>
+        <div class="message_type_div">
+          <p class="primary_div">
+            Primary
+          </p>
+          <p class="general_div">
+            General
+          </p>
+          <p class="requests_div">
+            Requests(999+)
+          </p>
+        </div>
+      </div>
+      <div class="bellow_message_div">
+        <div class="search_div">
+          <img class="search_img" src="logo/search.svg">
+          <input class="search_para" placeholder="Search">
+        </div>
+        <div class="chat_block" onclick="toTamanna()
+        toSpeak_str = 'tamanna'">
+          <img class="chat_img" src="images/tamanna.jpg">
+          <div class="message_info">
+            <div class="message_name message_name2">
+              Tamanny Bhatia
+            </div>
+            <div class="message_text  message_text2">
+              Hey, how are you?<span class="time_ago">. 2 min</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat_block" onclick="toAnu()
+        toSpeak_str='anu'
+        ">
+          <img class="chat_img" src="images/anu.jpg">
+          <div class="message_info">
+            <div class="message_name">
+              Anu Malik
+            </div>
+            <div class="message_text">
+              Tu Mumbai aa raha ha!!<span class="time_ago">. 2h</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat_block" onclick="toArnab()
+        toSpeak_str = 'arnab'">
+          <img class="chat_img" src="images/arnab.jpg">
+          <div class="message_info">
+            <div class="message_name">
+              Arnab Gowswami
+            </div>
+            <div class="message_text">
+              you: muje news do<span class="time_ago">. 2h</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat_block" onclick="toBatman()
+          toSpeak_str = 'batman'
+        ">
+          <img class="chat_img" src="images/batman.jpg">
+          <div class="message_info">
+            <div class="message_name">
+              Batman
+            </div>
+            <div class="message_text">
+              Gotham needs you, Batman!<span class="time_ago">. 3h</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat_block" onclick="toRaja()
+          toSpeak_str = 'raja'
+        ">
+          <img class="chat_img" src="images/raja.jpg">
+          <div class="message_info">
+            <div class="message_name">
+              S. S. Rajamouli
+            </div>
+            <div class="message_text">
+              Bahubali 3 ma kaam karoge?<span class="time_ago">. 5h</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right_block">
+      <div class="chat_upper_div">
+        <div class="upper_left_chat_div">
+          <img class="chat_profile_photo" src="images/savagebaba05.jpg">
+        </div>
+        <div class="upper_middle_chat_div">
+          <p class="chat_acc_name">
+            Shikhar Dutta
+          </p>
+          <p class="chat_acc_id_name">
+            savagebaba05
+          </p>
+        </div>
+        <div class="upper_right_chat_div">
+          <img class="chat_call" src="logo/call.svg">
+          <img class="chat_call" src="logo/video_call.svg">
+          <img class="chat_call" src="logo/info.svg">
+          
+        </div>
+      </div>
+      <div class="chat_lower_div">
+        <div class="chat_container">
+          <div class="person_chat_div">
+            <p class="person_chat">
+              hii
+            </p>
+          </div>
+          <div class="user_chat_div">
+            <p class="user_chat">
+              hii
+            </p>
+          </div>
+          <div class="person_chat_div">
+            <p class="person_chat">
+              What's up brother<br> want to listen a joke?
+            </p>
+          </div>
+        </div>
+        <div class="write_message_div">
+          <img class="emoji_class" src="logo/emoji.svg">
+          <input class="input_message" placeholder="Message...">
+          <img class="send_message_class" src="logo/send.svg" onclick="func()">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="chats.js"></script>
+</body>
+</html>
